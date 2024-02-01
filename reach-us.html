@@ -9,15 +9,23 @@
      <link rel="stylesheet" href="reach.css">
 
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
-          integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+          <style>
+               html,body{
+                 width: 100%;
+                 height: 100%;
+                 margin: 0px;
+                 padding: 0px;
+                 overflow-x: hidden;
+               }
+              </style>
 </head>
 
 <body>
      <div class="nav-sticy">
           <div class="up-nav">
-               <span class="font"><a class="fab fa fa-phone"> 8873120581</a></span>
-               <span class="font"><a class="fab fa fa-envelope"> sayistayazdani1999@gmail.com</a></span>
+               <span class="font"><a class="fab fa fa-phone"> 6206117613</a></span>
+               <span class="font"><a class="fab fa fa-envelope"> syashraj903@gmail.com</a></span>
 
 
 
@@ -151,7 +159,10 @@
                <div class="collapse navbar-collapse " id="navbarTogglerDemo01">
                     <a class="navbar-brand " href="#"
                          style="color:#c6b3b3;font-family: 'Kaushan Script', cursive; font-weight: bolder;font-size: 180%;    text-shadow: 2px 2px #575454;">
-                         Match Any One</a>
+                         <img style="height: 4rem;
+                         width: 4rem;
+                         border-radius: 50%;
+                         object-fit: cover;" src="icon img/logo.jpg">Love Matcher</a>
                     <ul class="navbar-nav mr-auto mt-2 mt-lg-0  ">
                          <li class="nav-item active nav-tabs">
                               <a class="nav-link" href="index.html"
@@ -215,60 +226,64 @@
 
      <!--Reach Us container Section-->
      <div id="payment-cont">
-          <div class="pay-head"
-               style="background-color:rgb(222, 151, 163); color: white;padding-left: 45px; height: 70px; ">
-               <h3 style="padding-top: 15px;font-family: 'Acme', sans-serif;
-               font-family: 'Comfortaa', cursive; font-weight:900;">REACH US</h3>
+          <div class="pay-head">
+               <h3>REACH US</h3>
           </div>
-          <p class="text-center" style="color: black;">Thank you for using our services. For any questions on our
-               site,
-               please check out our<span style="color:red;"> FAQs </span> section.</p>
+          <p class="text-center">Thank you for using our services. For any questions on our site, please check out our
+               <span style="color:red;"> FAQs </span> section.
+          </p>
           <div class="cont-pay">
                <div class="row">
-                   
-                         <div class="col-lg-6 col-md-6 ">
-                              <div class="fancy-title title-bottom-border">
-                                   <h6 style="color: #e7717d;">Address</span></h6>
-                                   <hr>
-
-                                   <div class="topmargin-sm" style=" font-size: 16px; line-height: 40px;">
-                                        <p>Address :
-                                             <textarea class="sm-form-control" style="border: white;" id="message" name="message" rows="8" cols="30">
-                                             </textarea></p>
-                                        <p><br><br><br><br>Email :<a target="_blank" rel="nofollow">
-                                                  info@matchanyone.com</a><br> 
-                                                  Phone : <textarea class="sm-form-control" style="border: white;" id="message" name="message" rows="1" cols="10">
-                                                  </textarea></p><br></p>
-
-
+                    <!-- <div class="col-lg-6 col-md-6 address-container">
+                         <div class="fancy-title title-bottom-border">
+                              <h6>Address</h6>
+                              <hr>
+                              <div class="topmargin-sm">
+                                   <p>Address:
+                                        <textarea class="sm-form-control" id="message" name="message" rows="4"
+                                             cols="30"></textarea>
+                                   </p>
+                                   <div class="contact-info">
+                                        <p>Email: <a target="_blank" rel="nofollow">info@matchanyone.com</a></p>
+                                        <p>Phone: <textarea class="sm-form-control" id="message" name="message" rows="1"
+                                                  cols="10"></textarea></p>
                                    </div>
                               </div>
                          </div>
+                    </div> -->
 
-                         <div class="col-lg-6  col-md-6 ">
-                              <form class="form-info-pay nobottom-margin" action="" method="">
-                                   <h6 style="color: #e7717d;">ENQUIRY FORM</h6>
-                                   <hr>
-                                   <label for="name">Name <small>*</small></label>
-                                   <input type="text" id="name" name="name" value="" class="sm-form-control">
+                    <div class="col-lg-6 col-md-6 enquiry-form-container">
+                         <form class="form-info-pay nobottom-margin" action="" method="">
+                              <h6>ENQUIRY FORM</h6>
+                              <hr>
+                              <label for="name">Name <small>*</small></label>
+                              <input type="text" id="name" name="name" value="" class="sm-form-control">
 
-                                   <label for="email">Email <small>*</small></label>
-                                   <input type="email" id="email" name="email" value="" class="sm-form-control">
-                                   <label for="txtphone">Phone <small>*</small></label>
-                                   <input type="text" id="txtphone" name="txtphone" value="" class="sm-form-control">
+                              <label for="email">Email <small>*</small></label>
+                              <input type="email" id="email" name="email" value="" class="sm-form-control">
 
-                                   <label for="subject">Subject <small>*</small></label>
-                                   <input type="text" id="subject" name="subject" value="" class="sm-form-control"
-                                        aria-required="true">
-                                   <label for="message">Message <small>*</small></label><br>
-                                   <textarea class="sm-form-control" id="message" name="message" rows="6" cols="30">
-                                   </textarea>
-                                   <div class="btn">
-                                        <button type="button" class="btn btn-danger btn-sm">SEND MESSAGE</button>
-                                   </div>
-                              </form>
-                         </div>
-                  
+                              <label for="txtphone">Phone <small>*</small></label>
+                              <input type="text" id="txtphone" name="txtphone" value="" class="sm-form-control">
+
+                              <label for="subject">Subject <small>*</small></label>
+                              <input type="text" id="subject" name="subject" value="" class="sm-form-control"
+                                   aria-required="true">
+
+                              <label for="message">Message <small>*</small></label><br>
+                              <textarea class="sm-form-control" id="message" name="message" rows="6"
+                                   cols="30"></textarea>
+
+                              <div class="btn">
+                                   <button type="button">SEND MESSAGE</button>
+                              </div>
+                         </form>
+                    </div>
+                    <div class="col-lg-6 wow slideInUp" data-wow-delay="0.6s">
+                         <iframe class="position-relative rounded w-100 h-100"
+                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001156.4288297426!2d-78.01371936852176!3d42.72876761954724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew%20York%2C%20USA!5e0!3m2!1sen!2sbd!4v1603794290143!5m2!1sen!2sbd"
+                             frameborder="0" style="min-height: 350px; border:0;" allowfullscreen="" aria-hidden="false"
+                             tabindex="0"></iframe>
+                     </div>
                </div>
           </div>
      </div>
